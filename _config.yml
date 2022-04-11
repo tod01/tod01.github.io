@@ -4,8 +4,8 @@ email: thiernooumar.diallo@outlook.com
 url: https://tod01.github.io
 description: "I am a big data enthusiast. I am interested in all areas of data science (Machine Learning, Data Mining, Data Engineering,...)."
 keywords: "your keywords, separated by commas"
-skills: "Data Engineer - DataOps - Machine Learning Engineer - NLP"
-meta_author: Diallo Thierno Oumar
+skills: "Data Engineer - MLOps Engineer - Machine Learning Engineer - NLP"
+meta_author: Thierno Oumar DIALLO
 
 # Google webmaster tools
 google_verify:
@@ -44,16 +44,14 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/in/tod01/
   - title: stack-overflow
-    url: 
-  - title: gitlab
-    url: https://gitlab.com/tod01
+    url:
   - title: github
     url: http://github.com/tod01
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 9 Place de l'Europe
   - line: 78140 Velizy Villacoublay, France
+  #- line: 78140 Velizy Villacoublay, France
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

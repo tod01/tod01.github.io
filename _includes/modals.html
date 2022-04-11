@@ -15,9 +15,7 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
+                            
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                     <li>Client:
@@ -37,6 +35,28 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+                            </ul>
+                            <h3>Description</h3>
+                            {% if post.description %}
+                                <p>{{ post.description }}</p>
+                            {% endif %}
+                            <h3>Tools</h3>
+                            
+                            <div class="portfolio-flex-row">
+                                {% for tool in post.tools %}
+                                    <div class="portfolio-flex-item portfolio-item">
+                                            <img src="img/portfolio/{{ post.img }}" class="figure-img img-fluid rounded" alt="...">
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            <ul class="list-inline item-details">
+                                {% for tool in post.tools %}
+                                <li>
+                                    <strong>
+                                        <a href="http://startbootstrap.com">{{ tool.name }}</a>
+                                    </strong>
+                                </li>
+                                {% endfor %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
