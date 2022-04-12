@@ -36,12 +36,12 @@
                                     </li>
                                 {% endif %}
                             </ul>
-                            <h3>Description</h3>
+                            <h4>Description</h4>
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
-                            <h3>Tools</h3>
-                            
+                            <h4>Tools</h4>
+                            <!--
                             <div class="portfolio-flex-row">
                                 {% for tool in post.tools %}
                                     <div class="portfolio-flex-item portfolio-item">
@@ -49,12 +49,11 @@
                                     </div>
                                 {% endfor %}
                             </div>
+                            -->
                             <ul class="list-inline item-details">
                                 {% for tool in post.tools %}
-                                <li>
-                                    <strong>
-                                        <a href="http://startbootstrap.com">{{ tool.name }}</a>
-                                    </strong>
+                                <li class="text-success">
+                                    <strong>{{ tool.name }}</strong>
                                 </li>
                                 {% endfor %}
                             </ul>
