@@ -1,5 +1,6 @@
 # Site settings
 title: Data Engineer
+logo: "logo_nn.png"
 profile: "administrator.png"
 email: /f/mayvpeqd
 url: https://tod01.github.io
@@ -40,14 +41,18 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/tod01
-  - title: linkedin
-    url: https://www.linkedin.com/in/tod01/
-  - title: stack-overflow
-    url:
-  - title: github
-    url: http://github.com/tod01
+  - title: "twitter"
+    url: "http://twitter.com/umartod"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/tod01/"
+  - title: "stack-overflow"
+    url: "https://stackoverflow.com/users/13159727/tod01"
+  - title: "github"
+    url: "http://github.com/tod01"
+
+# more about page
+more_about:
+  - logo: "../"
 
 # Postal address (add as many lines as necessary)
 address:
