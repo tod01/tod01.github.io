@@ -42,19 +42,19 @@ certifications:
     type: Data Engineering
     values:
     - title: "Dataiku Advanced Designer"
-      id: 2
+      id: 1
       organization: "Dataiku"
       issue_date: "April 2022"
       link: "https://verify.skilljar.com/c/bk6gyj52wxxj"
 
     - title: "Accessing Hadoop Data Using Hive"
-      id: 1
+      id: 2
       organization: "Cognitive Class"
       issue_date: "January 2022"
       link: "https://courses.cognitiveclass.ai/certificates/021013393a8a4141916b5ff2d13fd179"
     
     - title: "Apache Kafka"
-      id: 2
+      id: 3
       organization: "A Cloud Guru"
       issue_date: "November 2021"
       link: "https://verify.acloud.guru/991EFC84CCED"
@@ -66,7 +66,7 @@ certifications:
       link: "https://verify.skilljar.com/c/kmg9axcnzndi"
     
     - title: "Talend Data Fabric Foundations"
-      id: 3
+      id: 5
       organization: "Talend"
       issue_date: "July 2021"
       link: "https://drive.google.com/file/d/1rAJWA2PGwu_QC8T3FchrGqoY87noy18u/view?usp=sharing"
@@ -90,13 +90,13 @@ certifications:
       link: "https://verify.acloud.guru/F1DF6AD63A70"
   
     - title: "AWS Cloud Technical Essentials"
-      id: 3
+      id: 2
       organization: "Coursera"
       issue_date: "June 2021"
       link: "https://www.coursera.org/account/accomplishments/certificate/RKZ23YQDQZLN"
     
     - title: "AWS Fundamentals: Addressing Security Risk"
-      id: 4
+      id: 3
       organization: "Coursera"
       issue_date: "June 2021"
       link: "https://www.coursera.org/account/accomplishments/certificate/4T8RXWZTN72J"
