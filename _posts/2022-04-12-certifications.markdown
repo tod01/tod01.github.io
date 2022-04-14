@@ -144,10 +144,10 @@ certifications:
       link: "https://verify.skilljar.com/c/95228mv7fvc5"
 
   - ref: "other"
-    type: "Other Skills"
+    type: "Non-certified Skills"
     values:
-    - title: ""
-      id: 5
+    - title: "Kafka"
+      id: 1
       organization: ""
       issue_date: ""
       link: ""
