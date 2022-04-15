@@ -74,9 +74,14 @@
                                         <tr class="text-justify table-active active">
                                             <th scope="col">#</th>
                                             <th scope="col">Title</th>
-                                            <th scope="col">Organization Name</th>
-                                            <th scope="col">Issue Date</th>
-                                            <th scope="col">Link</th>
+                                            {% if certifications.ref != "other" %}
+                                                <th scope="col">Organization Name</th>
+                                                <th scope="col">Issue Date</th>
+                                                <th scope="col">Link</th>
+                                            {% else %}
+                                                <th scope="col">Stars</th>
+                                                <th scope="col">Notice</th>
+                                            {% endif %}
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -84,9 +89,18 @@
                                         <tr class="text-justify">
                                             <th scope="row">{{ certification.id }}</th>
                                             <td>{{ certification.title }}</td>
-                                            <td>{{ certification.organization }}</td>
-                                            <td>{{ certification.issue_date }}</td>
-                                            <td> <a href="{{certification.link}}" target="_blank" rel="{{certification.rel}}">Credential URL</a></td>
+                                            {% if certifications.ref != "other" %}
+                                                <td>{{ certification.organization }}</td>
+                                                <td>{{ certification.issue_date }}</td>
+                                                {% if certification.issue_date != "Ongoing" %}
+                                                    <td>
+                                                        <a href="{{certification.link}}" target="_blank" rel="{{certifications.ref}}">Credential URL</a>
+                                                    </td>
+                                                {% endif %}
+                                            {% else %}
+                                                <td>{{ certification.stars }}</td>
+                                                <td>{{ certification.notice }}</td>
+                                            {% endif %}
                                         </tr>
                                         {% endfor %}
                                         </tbody>

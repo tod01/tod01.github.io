@@ -5,8 +5,8 @@ subtitle: "Data Integration, Building CI/CD Pepelines, Spark Configuration"
 # background: cabin.png
 modal-id: 4
 date: 2020-02-01
-img: data_filter.jpeg
-alt: image-alt
+img: zanskar.jpg
+alt: Hyblab project
 project-date: February 2020
 client: Polytech Nantes
 type: School

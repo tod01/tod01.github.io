@@ -4,6 +4,7 @@ title: "R&D Developer"
 subtitle: "Data Integration, Building CI/CD Pepelines, Spark Configuration"
 # background: cabin.png
 modal-id: 3
+id: "lengow-intership"
 date: 2020-07-02
 img: data_filter.jpeg
 alt: image-alt

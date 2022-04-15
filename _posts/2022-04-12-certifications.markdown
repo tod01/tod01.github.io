@@ -100,7 +100,12 @@ certifications:
       organization: "Coursera"
       issue_date: "June 2021"
       link: "https://www.coursera.org/account/accomplishments/certificate/4T8RXWZTN72J"
-    
+    - title: "GCP - Professional Data Engineer Certification"
+      id: 4
+      organization: "Google"
+      issue_date: "Ongoing"
+      link: ""
+      
   - ref: "devops"
     type: "DevOps"
     values: 
@@ -144,12 +149,30 @@ certifications:
       link: "https://verify.skilljar.com/c/95228mv7fvc5"
 
   - ref: "other"
-    type: "Non-certified Skills"
+    type: "Other Skills"
     values:
     - title: "Kafka"
       id: 1
-      organization: ""
-      issue_date: ""
-      link: ""
-
+      stars: 
+      notice: ""
+    - title: "Spring Boot"
+      id: 2
+      stars:
+      notice: ""
+    - title: "(Py)Spark/SparkSQL"
+      id: 3
+      stars:
+      notice: ""
+    - title: "Cassandra"
+      id: 4
+      stars:
+      notice: ""
+    - title: "ElasticSearch"
+      id: 5
+      stars:
+      notice: ""
+    - title: "Databricks"
+      id: 5
+      stars:
+      notice: ""
 ---
