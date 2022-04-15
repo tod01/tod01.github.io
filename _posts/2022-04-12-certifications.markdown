@@ -70,7 +70,28 @@ certifications:
       organization: "Talend"
       issue_date: "July 2021"
       link: "https://drive.google.com/file/d/1rAJWA2PGwu_QC8T3FchrGqoY87noy18u/view?usp=sharing"
-    
+    non_certified_skills:
+    - title: "(Py)Spark/SparkSQL"
+      id: 3
+      stars: 5
+      notice: "I have been using PySpark for almost 2 years now !"
+    - title: "Databricks"
+      id: 5
+      stars: 4
+      notice: "I used Databricks to compare its Spark processing with Dataiku."
+    - title: "Snowflake"
+      id: 4
+      stars: 4
+      notice: "Querying big data using SQL"
+    - title: "ElasticSearch"
+      id: 5
+      stars: 3
+      notice: "Kibana, Outlier Detection with Machine learning,..."
+    - title: "Spring Boot"
+      id: 2
+      stars: 3
+      notice: "I use it mainly for personal projects. I used it for example with Kafka Streams..."
+
   - ref: data_analysis
     type: Data Analysis
     values: 
@@ -147,32 +168,6 @@ certifications:
       organization: "Dataiku"
       issue_date: "April 2022"
       link: "https://verify.skilljar.com/c/95228mv7fvc5"
+    
 
-  - ref: "other"
-    type: "Other Skills"
-    values:
-    - title: "Kafka"
-      id: 1
-      stars: 
-      notice: ""
-    - title: "Spring Boot"
-      id: 2
-      stars:
-      notice: ""
-    - title: "(Py)Spark/SparkSQL"
-      id: 3
-      stars:
-      notice: ""
-    - title: "Cassandra"
-      id: 4
-      stars:
-      notice: ""
-    - title: "ElasticSearch"
-      id: 5
-      stars:
-      notice: ""
-    - title: "Databricks"
-      id: 5
-      stars:
-      notice: ""
 ---

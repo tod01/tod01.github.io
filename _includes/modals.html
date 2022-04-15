@@ -105,6 +105,45 @@
                                         {% endfor %}
                                         </tbody>
                                     </table>
+                                    {% if certifications.non_certified_skills %}
+                                    <hr>
+                                    <div>
+                                        <strong>Other Skills</strong>
+                                    </div>
+                                    <br>
+                                    <table class="table table-hover table-bordered table-responsive table-dark">
+                                        <thead>
+                                        <tr class="text-justify table-active active">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Title</th>
+                                            <th scope="col">Stars</th>
+                                            <th scope="col">Notice</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for certification in certifications.non_certified_skills %}
+                                        <tr class="text-justify">
+                                            <th scope="row">{{ certification.id }}</th>
+                                            <td>{{ certification.title }}</td>
+                                            <td>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="ratings">
+                                                        {% for i in (1..certification.stars) %}
+                                                        <i class="fa fa-star text-success"></i>
+                                                        {% endfor %}
+                                                        {% for i in (certification.stars..4) %}
+                                                        <i class="fa fa-star"></i>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>{{ certification.notice }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                    <hr>
+                                    {% endif %}
                                 </div>
                                 {% endfor %}
                             </div>
