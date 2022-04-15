@@ -6,7 +6,7 @@ subtitle: "Data Integration, Building CI/CD Pepelines, Spark Configuration"
 modal-id: 1
 date: 2022-02-19
 img: data_integration.png
-alt: image-alt
+alt: "Data Integration"
 project-date: Since October 2021
 client: HP
 type: Client
