@@ -168,6 +168,28 @@ certifications:
       organization: "Dataiku"
       issue_date: "April 2022"
       link: "https://verify.skilljar.com/c/95228mv7fvc5"
-    
 
+  - ref: "other"
+    type: "Other Skills"
+    values:
+    - title: "NoSQL"
+      id: 1
+      stars: 5
+      notice: ""
+    - title: "Tableau"
+      id: 2
+      stars: 5
+      notice: ""
+    - title: "Power BI"
+      id: 3
+      stars: 4
+      notice: ""
+    - title: "Neo4j"
+      id: 4
+      stars: 3
+      notice: ""
+    - title: "Knime Analytics"
+      id: 5
+      stars: 3
+      notice: ""
 ---
