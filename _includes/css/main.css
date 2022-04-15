@@ -272,6 +272,11 @@ section.success {
       flex: 1 0 49%;
       max-width: 49%;
     }
+
+    .certification-table {
+        max
+    }
+
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {

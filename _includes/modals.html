@@ -68,8 +68,8 @@
                             <!-- Tab panes -->
                             <div class="tab-content col">
                                 {% for certifications in post.certifications %}
-                                <div role="tabpanel" class="tab-pane fade in {{ certifications["default"] }}" id="{{certifications["ref"]}}">
-                                    <table class="table table-hover table-bordered table-responsive table-dark">
+                                <div role="tabpanel" class="table-responsive py-5 tab-pane fade in {{ certifications["default"] }}" id="{{certifications["ref"]}}">
+                                    <table class="table table-hover certification-table table-bordered table-responsive table-dark">
                                         <thead>
                                         <tr class="text-justify table-active active">
                                             <th scope="col">#</th>
@@ -109,6 +109,7 @@
                                     <hr>
                                     <div>
                                         <strong>Other Skills</strong>
+                                        <hr class="star-primary">
                                     </div>
                                     <br>
                                     <table class="table table-hover table-bordered table-responsive table-dark">
