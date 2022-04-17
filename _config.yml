@@ -1,16 +1,19 @@
 # Site settings
 title: "Thierno Oumar DIALLO"
-logo: "logo.png"
+logo_tod: ["logo.png", 28]
+
+logo_nn: ["logo_nn.png", 48]
+
 profile: "administrator.png"
 email: /f/mayvpeqd
 url: https://tod01.github.io
 description: "I am a big data enthusiast. I am interested in all areas of data science (Machine Learning, Data Mining, Data Engineering,...)."
-keywords: "Thierno Oumar Diallo, tod01, tod, Data Engineer, Ingénieur de données, Data Scientist, NLP, Machine Learning, MLOps"
+keywords: "Thierno Oumar Diallo Portfolio, Thierno Oumar Diallo CV, tod01, tod, Data Engineer, Ingénieur de données, Data Scientist, NLP, Machine Learning, MLOps"
 skills: "Data Engineer - Data Scientist - MLOps Engineer - Machine Learning Engineer"
-meta_author: Thierno Oumar DIALLO
+meta_author: "Thierno Oumar DIALLO"
 
 # Google webmaster tools
-google_verify:
+google_verify: BScZt_W-d0oPkoXfuldKQveXnQVN91a_M8P8Nf8Fuc
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
