@@ -107,6 +107,7 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    text-transform: capitalize;
 }
 
 @media(min-width:768px) {
