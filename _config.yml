@@ -16,7 +16,7 @@ meta_author: "Thierno Oumar DIALLO"
 google_verify: BScZt_W-d0oPkoXfuldKQveXnQVN91a_M8P8Nf8Fuc
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: E72BB2AC29F2D0FD40F3BD195FEA742E
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
