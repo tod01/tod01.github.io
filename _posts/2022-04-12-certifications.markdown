@@ -168,7 +168,39 @@ certifications:
       organization: "Dataiku"
       issue_date: "April 2022"
       link: "https://verify.skilljar.com/c/95228mv7fvc5"
-
+    
+  - ref: "languages"
+    type: "Languages"
+    values: 
+    - title: "Python"
+      id: 1
+      stars: 5
+      notice: "I am using this language more than 2 years now."
+    - title: "SQL"
+      id: 2
+      stars: 5
+      notice: ""
+    - title: "Java"
+      id: 3
+      stars: 4
+      notice: ""
+    - title: "C/C++"
+      id: 4
+      stars: 4
+      notice: ""
+    - title: "Javascript"
+      id: 5
+      stars: 4
+      notice: ""
+    - title: "Scala"
+      id: 6
+      stars: 3
+      notice: ""
+    - title: "R"
+      id: 7
+      stars: 3
+      notice: ""
+    
   - ref: "other"
     type: "Other Skills"
     values:

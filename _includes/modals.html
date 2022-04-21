@@ -74,7 +74,7 @@
                                         <tr class="text-justify table-active active">
                                             <th scope="col">#</th>
                                             <th scope="col">Title</th>
-                                            {% if certifications.ref != "other" %}
+                                            {% if certifications.ref != "other" and certifications.ref != "languages" %}
                                                 <th scope="col">Organization Name</th>
                                                 <th scope="col">Issue Date</th>
                                                 <th scope="col">Link</th>
@@ -89,7 +89,7 @@
                                         <tr class="text-justify">
                                             <th scope="row">{{ certification.id }}</th>
                                             <td>{{ certification.title }}</td>
-                                            {% if certifications.ref != "other" %}
+                                            {% if certifications.ref != "other" and certifications.ref != "languages" %}
                                                 <td>{{ certification.organization }}</td>
                                                 <td>{{ certification.issue_date }}</td>
                                                 {% if certification.issue_date != "Ongoing" %}
